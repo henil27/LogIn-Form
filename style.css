@@ -8,7 +8,146 @@
     height: 100vh;
     width: 100%;
     display: flex;
+    justify-content: center;* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main-box {
+    height: 100vh;
+    width: 100%;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.bg-image {
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/coding-25.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.small-box {
+    height: 500px;
+    width: 25%;
+    background-color: #242424;
+    padding: 30px;
+}
+
+.small-box i {
+    font-size: 200px;
+    color: green;
+}
+
+.login-box {
+    height: 300px;
+    width: 100%;
+    background-color: #242424;
+    padding: 20px;
+}
+
+.Id-box {
+    height: 40px;
+    width: 100%;
+    background-color: #242424c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    color: white;
+}
+
+.Id-box input {
+    width: 70%;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.fg-box {
+    width: 100%;
+    height: 20px;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fg-box a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Login-btn-box {
+    width: 100%;
+    height: 40px;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-btn-box .login-btn {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.login-btn a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Rg-box {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rg-box p {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.Rg-box a {
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+
+.description-box {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description-box p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
     align-items: center;
 }
 
